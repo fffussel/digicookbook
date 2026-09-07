@@ -1,4 +1,4 @@
-import 'package:digicookbook/DataObjects/Recipee/ContentParts/contentpart.dart';
+import 'package:digicookbook/DataObjects/Recipe/ContentParts/contentpart.dart';
 import 'package:flutter/material.dart';
 
 void main() {
