@@ -43,7 +43,7 @@ class _MainLayoutState extends State<MainLayout> {
       MaterialPageRoute(
         builder: (context) => Scaffold(
           backgroundColor: _settings.backgroundColor,
-          appBar: AppBar(backgroundColor: _settings.highlightColor),
+          appBar: AppBar(backgroundColor: _settings.secondaryColor),
           body: view,
         ),
       ),
