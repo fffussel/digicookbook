@@ -7,6 +7,11 @@ enum UNITS {
   g,
   L,
   ml,
+  cl,
+  STK,
+  TL,
+  EL,
+  Pr
   //TODO add missing Units and localise
 }
 
