@@ -1,4 +1,5 @@
 import 'package:digicookbook/DataObjects/Recipe/ContentParts/contentpart.dart';
+import 'package:digicookbook/DataObjects/Setting/Settings.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class RootWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Settings().backgroundColor,
       body: Center(
         child: Text(Contentpart.test),
       ),
