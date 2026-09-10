@@ -5,6 +5,10 @@ class Timer extends Contentpart {
   double timeInMinutes = 0;
 
   String toXML() {
-    throw UnimplementedError("toXML is not implemented for this object");
+    return '''
+      <Timer>
+        <timeInMinutes>$timeInMinutes</timeInMinutes>
+      </Timer>
+    ''';
   }
 }

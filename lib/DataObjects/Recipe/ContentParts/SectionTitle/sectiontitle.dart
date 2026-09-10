@@ -5,6 +5,10 @@ class SectionTitle extends Contentpart{
   late String title;
 
   String toXML() {
-    throw UnimplementedError("toXML is not implemented for this object");
+    return '''
+      <SectionTitle>
+        <title>$title</title>
+      </SectionTitle>
+    ''';
   }
 }
