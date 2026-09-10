@@ -1,8 +1,8 @@
 
 import 'package:digicookbook/DataObjects/Recipe/ContentParts/contentpart.dart';
 
-class Timer extends Contentpart {
-  double timeInMinutes = 0;
+class SectionTitle extends Contentpart{
+  late String title;
 
   String toXML() {
     throw UnimplementedError("toXML is not implemented for this object");

@@ -17,10 +17,19 @@ enum UNITS {
 
 class IngredientList extends Contentpart{
   late List<Ingredient> list;
+
+  String toXML() {
+    throw UnimplementedError("toXML is not implemented for this object");
+  }
 }
 
 class Ingredient extends Contentpart{
+  late String id;
   late String name;
   int amount = 0;
   UNITS unit = UNITS.g;
+
+  String toXML() {
+    throw UnimplementedError("toXML is not implemented for this object");
+  }
 }

@@ -10,4 +10,8 @@ class FormatedText extends Contentpart {
   String font;
 
   FormatedText(this.text, this.bold, this.colour, this.font, this.italic, this.underlined);
+
+  String toXML() {
+    throw UnimplementedError("toXML is not implemented for this object");
+  }
 }
