@@ -12,6 +12,10 @@ class FormatedText extends Contentpart {
   FormatedText(this.text, this.bold, this.colour, this.font, this.italic, this.underlined);
 
   String toXML() {
-    throw UnimplementedError("toXML is not implemented for this object");
+    return '''
+      <FormatedText bold="$bold" italic="$italic" underlined="$underlined" colour="$colour" font="$font">
+        $text
+      </FormatedText>
+    ''';
   }
 }

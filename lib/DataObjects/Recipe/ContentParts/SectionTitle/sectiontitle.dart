@@ -7,7 +7,7 @@ class SectionTitle extends Contentpart{
   String toXML() {
     return '''
       <SectionTitle>
-        <title>$title</title>
+        $title
       </SectionTitle>
     ''';
   }

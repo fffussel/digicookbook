@@ -6,9 +6,7 @@ class Timer extends Contentpart {
 
   String toXML() {
     return '''
-      <Timer>
-        <timeInMinutes>$timeInMinutes</timeInMinutes>
-      </Timer>
+      </Timer timeInMinutes="$timeInMinutes">
     ''';
   }
 }
